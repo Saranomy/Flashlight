@@ -1,0 +1,9 @@
+com.saranomy.flashlight.MainActivity
+com.saranomy.flashlight.MainActivity: MainActivity()
+com.saranomy.flashlight.R$drawable: int ic_action_good
+com.saranomy.flashlight.R$drawable: int ic_launcher
+com.saranomy.flashlight.R$id: int activity_main
+com.saranomy.flashlight.R$id: int activity_main_rate
+com.saranomy.flashlight.R$layout: int activity_main
+com.saranomy.flashlight.R$string: int app_name
+com.saranomy.flashlight.R$style: int theme

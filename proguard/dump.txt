@@ -1,0 +1,465 @@
+_____________________________________________________________________
++ Program class: com/saranomy/flashlight/MainActivity
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.saranomy.flashlight.MainActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 87):
+  + Integer [19]
+  + Integer [2130903040]
+  + Integer [2131099648]
+  + Integer [2131099649]
+  + Class [android/app/Activity]
+  + Class [android/os/Build$VERSION]
+  + Class [android/view/View]
+  + Class [android/view/Window]
+  + Class [android/view/WindowManager$LayoutParams]
+  + Class [android/widget/ImageView]
+  + Class [com/saranomy/flashlight/MainActivity]
+  + Class [com/saranomy/flashlight/a]
+  + Class [com/saranomy/flashlight/b]
+  + Fieldref [android/os/Build$VERSION.SDK_INT I]
+  + Fieldref [android/view/WindowManager$LayoutParams.screenBrightness F]
+  + Fieldref [com/saranomy/flashlight/MainActivity.a Landroid/view/View;]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/app/Activity.onWindowFocusChanged (Z)V]
+  + Methodref [android/view/View.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [android/view/View.setSystemUiVisibility (I)V]
+  + Methodref [android/view/Window.getAttributes ()Landroid/view/WindowManager$LayoutParams;]
+  + Methodref [android/view/Window.setAttributes (Landroid/view/WindowManager$LayoutParams;)V]
+  + Methodref [android/widget/ImageView.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [com/saranomy/flashlight/MainActivity.b ()V]
+  + Methodref [com/saranomy/flashlight/MainActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [com/saranomy/flashlight/MainActivity.getWindow ()Landroid/view/Window;]
+  + Methodref [com/saranomy/flashlight/MainActivity.setContentView (I)V]
+  + Methodref [com/saranomy/flashlight/a.<init> (Lcom/saranomy/flashlight/MainActivity;)V]
+  + Methodref [com/saranomy/flashlight/b.<init> (Lcom/saranomy/flashlight/MainActivity;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/saranomy/flashlight/MainActivity;)V]
+  + NameAndType [SDK_INT I]
+  + NameAndType [a Landroid/view/View;]
+  + NameAndType [b ()V]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getAttributes ()Landroid/view/WindowManager$LayoutParams;]
+  + NameAndType [getWindow ()Landroid/view/Window;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [onWindowFocusChanged (Z)V]
+  + NameAndType [screenBrightness F]
+  + NameAndType [setAttributes (Landroid/view/WindowManager$LayoutParams;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + NameAndType [setSystemUiVisibility (I)V]
+  + Utf8 [()Landroid/view/Window;]
+  + Utf8 [()Landroid/view/WindowManager$LayoutParams;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Landroid/view/WindowManager$LayoutParams;)V]
+  + Utf8 [(Lcom/saranomy/flashlight/MainActivity;)V]
+  + Utf8 [(Z)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [F]
+  + Utf8 [I]
+  + Utf8 [Landroid/annotation/TargetApi;]
+  + Utf8 [Landroid/view/View;]
+  + Utf8 [RuntimeInvisibleAnnotations]
+  + Utf8 [SDK_INT]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/os/Build$VERSION]
+  + Utf8 [android/view/View]
+  + Utf8 [android/view/Window]
+  + Utf8 [android/view/WindowManager$LayoutParams]
+  + Utf8 [android/widget/ImageView]
+  + Utf8 [b]
+  + Utf8 [com/saranomy/flashlight/MainActivity]
+  + Utf8 [com/saranomy/flashlight/a]
+  + Utf8 [com/saranomy/flashlight/b]
+  + Utf8 [findViewById]
+  + Utf8 [getAttributes]
+  + Utf8 [getWindow]
+  + Utf8 [onCreate]
+  + Utf8 [onWindowFocusChanged]
+  + Utf8 [screenBrightness]
+  + Utf8 [setAttributes]
+  + Utf8 [setContentView]
+  + Utf8 [setOnClickListener]
+  + Utf8 [setSystemUiVisibility]
+  + Utf8 [value]
+
+Fields (count = 1):
+  + Field:        a Landroid/view/View;
+    Access flags: 0x2
+      = private android.view.View a
+
+Methods (count = 5):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MainActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #17
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 78, locals = 3, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #18
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #2
+        + Integer [2130903040]
+      [8] invokevirtual #28
+        + Methodref [com/saranomy/flashlight/MainActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] invokevirtual #27
+        + Methodref [com/saranomy/flashlight/MainActivity.getWindow ()Landroid/view/Window;]
+      [15] invokevirtual #22
+        + Methodref [android/view/Window.getAttributes ()Landroid/view/WindowManager$LayoutParams;]
+      [18] astore_2 v2
+      [19] aload_2 v2
+      [20] fconst_1
+      [21] putfield #15
+        + Fieldref [android/view/WindowManager$LayoutParams.screenBrightness F]
+      [24] aload_0 v0
+      [25] invokevirtual #27
+        + Methodref [com/saranomy/flashlight/MainActivity.getWindow ()Landroid/view/Window;]
+      [28] aload_2 v2
+      [29] invokevirtual #23
+        + Methodref [android/view/Window.setAttributes (Landroid/view/WindowManager$LayoutParams;)V]
+      [32] aload_0 v0
+      [33] aload_0 v0
+      [34] ldc #3
+        + Integer [2131099648]
+      [36] invokevirtual #26
+        + Methodref [com/saranomy/flashlight/MainActivity.findViewById (I)Landroid/view/View;]
+      [39] putfield #16
+        + Fieldref [com/saranomy/flashlight/MainActivity.a Landroid/view/View;]
+      [42] aload_0 v0
+      [43] getfield #16
+        + Fieldref [com/saranomy/flashlight/MainActivity.a Landroid/view/View;]
+      [46] new #12
+        + Class [com/saranomy/flashlight/a]
+      [49] dup
+      [50] aload_0 v0
+      [51] invokespecial #29
+        + Methodref [com/saranomy/flashlight/a.<init> (Lcom/saranomy/flashlight/MainActivity;)V]
+      [54] invokevirtual #20
+        + Methodref [android/view/View.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [57] aload_0 v0
+      [58] ldc #4
+        + Integer [2131099649]
+      [60] invokevirtual #26
+        + Methodref [com/saranomy/flashlight/MainActivity.findViewById (I)Landroid/view/View;]
+      [63] checkcast #10
+        + Class [android/widget/ImageView]
+      [66] new #13
+        + Class [com/saranomy/flashlight/b]
+      [69] dup
+      [70] aload_0 v0
+      [71] invokespecial #30
+        + Methodref [com/saranomy/flashlight/b.<init> (Lcom/saranomy/flashlight/MainActivity;)V]
+      [74] invokevirtual #24
+        + Methodref [android/widget/ImageView.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [77] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onWindowFocusChanged(Z)V
+    Access flags: 0x1
+      = public void onWindowFocusChanged(boolean)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 22, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] iload_1 v1
+      [2] invokespecial #19
+        + Methodref [android/app/Activity.onWindowFocusChanged (Z)V]
+      [5] iload_1 v1
+      [6] ifeq +15 (target=21)
+      [9] getstatic #14
+        + Fieldref [android/os/Build$VERSION.SDK_INT I]
+      [12] bipush 19
+      [14] ificmplt +7 (target=21)
+      [17] aload_0 v0
+      [18] invokevirtual #25
+        + Methodref [com/saranomy/flashlight/MainActivity.b ()V]
+      [21] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [21] Var: ..., Stack: (empty)
+  + Method:       a()V
+    Access flags: 0x1
+      = public void a()
+    Class member attributes (count = 2):
+    + Code attribute instructions (code length = 11, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #16
+        + Fieldref [com/saranomy/flashlight/MainActivity.a Landroid/view/View;]
+      [4] sipush 7942
+      [7] invokevirtual #21
+        + Methodref [android/view/View.setSystemUiVisibility (I)V]
+      [10] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+    + Runtime invisible annotations attribute:
+      - Annotation [Landroid/annotation/TargetApi;]:
+        - Constant element value [value '73']
+          + Integer [19]
+  + Method:       b()V
+    Access flags: 0x1
+      = public void b()
+    Class member attributes (count = 2):
+    + Code attribute instructions (code length = 11, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #16
+        + Fieldref [com/saranomy/flashlight/MainActivity.a Landroid/view/View;]
+      [4] sipush 5894
+      [7] invokevirtual #21
+        + Methodref [android/view/View.setSystemUiVisibility (I)V]
+      [10] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+    + Runtime invisible annotations attribute:
+      - Annotation [Landroid/annotation/TargetApi;]:
+        - Constant element value [value '73']
+          + Integer [19]
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/saranomy/flashlight/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.saranomy.flashlight.a extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 30):
+  + Class [android/os/Build$VERSION]
+  + Class [android/view/View$OnClickListener]
+  + Class [com/saranomy/flashlight/MainActivity]
+  + Class [com/saranomy/flashlight/a]
+  + Class [java/lang/Object]
+  + Fieldref [android/os/Build$VERSION.SDK_INT I]
+  + Fieldref [com/saranomy/flashlight/a.a Lcom/saranomy/flashlight/MainActivity;]
+  + Methodref [com/saranomy/flashlight/MainActivity.a ()V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [SDK_INT I]
+  + NameAndType [a ()V]
+  + NameAndType [a Lcom/saranomy/flashlight/MainActivity;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/saranomy/flashlight/MainActivity;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Lcom/saranomy/flashlight/MainActivity;]
+  + Utf8 [SDK_INT]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/os/Build$VERSION]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [com/saranomy/flashlight/MainActivity]
+  + Utf8 [com/saranomy/flashlight/a]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+
+Fields (count = 1):
+  + Field:        a Lcom/saranomy/flashlight/MainActivity;
+    Access flags: 0x1010
+      = final synthetic com.saranomy.flashlight.MainActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/saranomy/flashlight/MainActivity;)V
+    Access flags: 0x0
+      = a(com.saranomy.flashlight.MainActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #7
+        + Fieldref [com/saranomy/flashlight/a.a Lcom/saranomy/flashlight/MainActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #9
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 16, locals = 2, stack = 2):
+      [0] getstatic #6
+        + Fieldref [android/os/Build$VERSION.SDK_INT I]
+      [3] bipush 19
+      [5] ificmplt +10 (target=15)
+      [8] aload_0 v0
+      [9] getfield #7
+        + Fieldref [com/saranomy/flashlight/a.a Lcom/saranomy/flashlight/MainActivity;]
+      [12] invokevirtual #8
+        + Methodref [com/saranomy/flashlight/MainActivity.a ()V]
+      [15] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [15] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/saranomy/flashlight/b
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.saranomy.flashlight.b extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 49):
+  + String [android.intent.action.VIEW]
+  + String [http://play.google.com/store/apps/details?id=com.saranomy.flashlight]
+  + String [market://details?id=com.saranomy.flashlight]
+  + Class [android/content/ActivityNotFoundException]
+  + Class [android/content/Intent]
+  + Class [android/net/Uri]
+  + Class [android/view/View$OnClickListener]
+  + Class [com/saranomy/flashlight/MainActivity]
+  + Class [com/saranomy/flashlight/b]
+  + Class [java/lang/Object]
+  + Fieldref [com/saranomy/flashlight/b.a Lcom/saranomy/flashlight/MainActivity;]
+  + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
+  + Methodref [android/content/Intent.setData (Landroid/net/Uri;)Landroid/content/Intent;]
+  + Methodref [android/net/Uri.parse (Ljava/lang/String;)Landroid/net/Uri;]
+  + Methodref [com/saranomy/flashlight/MainActivity.startActivity (Landroid/content/Intent;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a Lcom/saranomy/flashlight/MainActivity;]
+  + NameAndType [parse (Ljava/lang/String;)Landroid/net/Uri;]
+  + NameAndType [setData (Landroid/net/Uri;)Landroid/content/Intent;]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/net/Uri;)Landroid/content/Intent;]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/saranomy/flashlight/MainActivity;)V]
+  + Utf8 [(Ljava/lang/String;)Landroid/net/Uri;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/saranomy/flashlight/MainActivity;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android.intent.action.VIEW]
+  + Utf8 [android/content/ActivityNotFoundException]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/net/Uri]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [com/saranomy/flashlight/MainActivity]
+  + Utf8 [com/saranomy/flashlight/b]
+  + Utf8 [http://play.google.com/store/apps/details?id=com.saranomy.flashlight]
+  + Utf8 [java/lang/Object]
+  + Utf8 [market://details?id=com.saranomy.flashlight]
+  + Utf8 [onClick]
+  + Utf8 [parse]
+  + Utf8 [setData]
+  + Utf8 [startActivity]
+
+Fields (count = 1):
+  + Field:        a Lcom/saranomy/flashlight/MainActivity;
+    Access flags: 0x1010
+      = final synthetic com.saranomy.flashlight.MainActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/saranomy/flashlight/MainActivity;)V
+    Access flags: 0x0
+      = b(com.saranomy.flashlight.MainActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #11
+        + Fieldref [com/saranomy/flashlight/b.a Lcom/saranomy/flashlight/MainActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #16
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 53, locals = 3, stack = 4):
+      [0] aload_0 v0
+      [1] getfield #11
+        + Fieldref [com/saranomy/flashlight/b.a Lcom/saranomy/flashlight/MainActivity;]
+      [4] new #5
+        + Class [android/content/Intent]
+      [7] dup
+      [8] ldc #1
+        + String [android.intent.action.VIEW]
+      [10] invokespecial #12
+        + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
+      [13] ldc #3
+        + String [market://details?id=com.saranomy.flashlight]
+      [15] invokestatic #14
+        + Methodref [android/net/Uri.parse (Ljava/lang/String;)Landroid/net/Uri;]
+      [18] invokevirtual #13
+        + Methodref [android/content/Intent.setData (Landroid/net/Uri;)Landroid/content/Intent;]
+      [21] invokevirtual #15
+        + Methodref [com/saranomy/flashlight/MainActivity.startActivity (Landroid/content/Intent;)V]
+      [24] goto +28 (target=52)
+      [27] astore_2 v2
+      [28] aload_0 v0
+      [29] getfield #11
+        + Fieldref [com/saranomy/flashlight/b.a Lcom/saranomy/flashlight/MainActivity;]
+      [32] new #5
+        + Class [android/content/Intent]
+      [35] dup
+      [36] ldc #1
+        + String [android.intent.action.VIEW]
+      [38] invokespecial #12
+        + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
+      [41] ldc #2
+        + String [http://play.google.com/store/apps/details?id=com.saranomy.flashlight]
+      [43] invokestatic #14
+        + Methodref [android/net/Uri.parse (Ljava/lang/String;)Landroid/net/Uri;]
+      [46] invokevirtual #13
+        + Methodref [android/content/Intent.setData (Landroid/net/Uri;)Landroid/content/Intent;]
+      [49] invokevirtual #15
+        + Methodref [com/saranomy/flashlight/MainActivity.startActivity (Landroid/content/Intent;)V]
+      [52] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (0 -> 24: 27):
+      + Class [android/content/ActivityNotFoundException]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [27] Var: ..., Stack: [a:android/content/ActivityNotFoundException]
+        - [52] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+

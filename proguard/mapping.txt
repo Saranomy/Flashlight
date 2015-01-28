@@ -1,0 +1,12 @@
+com.saranomy.flashlight.MainActivity -> com.saranomy.flashlight.MainActivity:
+    android.view.View a -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onWindowFocusChanged(boolean) -> onWindowFocusChanged
+    void h() -> a
+    void s() -> b
+com.saranomy.flashlight.MainActivity$1 -> com.saranomy.flashlight.a:
+    com.saranomy.flashlight.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.saranomy.flashlight.MainActivity$2 -> com.saranomy.flashlight.b:
+    com.saranomy.flashlight.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
