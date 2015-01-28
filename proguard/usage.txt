@@ -1,8 +1,0 @@
-com.saranomy.flashlight.BuildConfig
-com.saranomy.flashlight.R
-com.saranomy.flashlight.R$attr
-com.saranomy.flashlight.R$drawable
-com.saranomy.flashlight.R$id
-com.saranomy.flashlight.R$layout
-com.saranomy.flashlight.R$string
-com.saranomy.flashlight.R$style
