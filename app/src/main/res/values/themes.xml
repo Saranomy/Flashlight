@@ -1,5 +1,3 @@
 <resources>
-
     <style name="theme" parent="android:Theme.Light.NoTitleBar.Fullscreen" />
-
 </resources>
